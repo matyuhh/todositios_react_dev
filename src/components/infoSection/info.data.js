@@ -3,7 +3,7 @@ import ImageTwo from '../../assets/svg-2.png';
 import ImageThree from '../../assets/svg-3.png';
 
 export const homeObjOne = {
-    id: 'discover',
+    id: 'dominios',
     lightBg: true,
     lightText: false,
     lightTextDesc: true,
@@ -20,7 +20,7 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-    id: 'signup',
+    id: 'referencias',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,

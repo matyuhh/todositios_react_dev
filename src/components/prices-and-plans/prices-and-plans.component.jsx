@@ -15,7 +15,7 @@ import {
 const PricesAndPlans = () => {
     return (
         <>
-            <PricesAndPlansContainer id='prices'>
+            <PricesAndPlansContainer id='planes'>
                 <PricesAndPlansH1>Planes y Precios</PricesAndPlansH1>
                 <PricesAndPlansWrapper>
                     <PricesAndPlansCard>

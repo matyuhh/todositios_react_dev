@@ -34,7 +34,7 @@ const Hero = () => {
                     Full Administrable, con Certificado SSL Gratis. 100% Responsive. 1 año de Hosting Optimizado y veloz.
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to='services' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+                    <Button to='/contactenos' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
                         COMENZAR AHORA! {hover ? <ArrowForward /> : <ArrowRight/>}
                     </Button>
                 </HeroBtnWrapper>

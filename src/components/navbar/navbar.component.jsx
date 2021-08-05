@@ -44,20 +44,20 @@ const Navbar = ({ toggle }) => {
             </MobileIcon>
             <NavMenu>
                 <NavItem>
-                    <NavLinks to='prices' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Planes y Precios</NavLinks>
+                    <NavLinks to='planes' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Planes y Precios</NavLinks>
                 </NavItem>
                 <NavItem>
-                    <NavLinks to='discover' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Busque su dominio</NavLinks>
+                    <NavLinks to='dominios' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Busque su dominio</NavLinks>
                 </NavItem>
                 <NavItem>
-                    <NavLinks to='services' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Servicios</NavLinks>
+                    <NavLinks to='servicios' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Servicios</NavLinks>
                 </NavItem>
                 <NavItem>
-                    <NavLinks to='signup' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Referencias</NavLinks>
+                    <NavLinks to='referencias' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Referencias</NavLinks>
                 </NavItem>
             </NavMenu>
             <NavBtn>
-                <NavBtnLink to='/signin'>Contactenos</NavBtnLink>
+                <NavBtnLink to='/contactenos'>Contactenos</NavBtnLink>
             </NavBtn>
             </NavbarContainer>
         </Nav>
