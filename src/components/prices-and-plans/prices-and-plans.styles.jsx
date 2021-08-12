@@ -72,11 +72,16 @@ export const PricesAndPlansH1 = styled.h1`
 `;
 
 export const PricesAndPlansH2 = styled.h2`
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-bottom: 10px;
 `;
 
+export const PricesAndPlansPrice = styled.h2`
+    margin-top: 5px;
+    font-size: 0.9rem;
+`;
+
 export const PricesAndPlansP = styled.p`
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: center;
 `;

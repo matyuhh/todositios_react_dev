@@ -10,7 +10,8 @@ import {
     PricesAndPlansCard,
     PricesAndPlansIcon,
     PricesAndPlansH2,
-    PricesAndPlansP
+    PricesAndPlansP,
+    PricesAndPlansPrice
 } from './prices-and-plans.styles'
 
 const PricesAndPlans = () => {
@@ -29,7 +30,8 @@ const PricesAndPlans = () => {
                         <PricesAndPlansP>Full Administrable</PricesAndPlansP>
                         <PricesAndPlansP>Transf. Ilimitada</PricesAndPlansP>
                         <PricesAndPlansP>Armado en 4 días</PricesAndPlansP>
-                        <Button to={{ pathname: "https://secure.2checkout.com/order/product.php?PRODS=32671492&QTY=1&LANG=es" }} target="_blank" primary='true' dark='true'>Compre ya!</Button>
+                        <PricesAndPlansPrice>$1950/anual*</PricesAndPlansPrice>
+                        <Button to={{ pathname: "https://secure.2checkout.com/order/product.php?PRODS=32671492&QTY=1&LANG=es" }} target="_blank" primary='true' dark='true'>Lo quiero!</Button>
                     </PricesAndPlansCard>
                     <PricesAndPlansCard>
                         <PricesAndPlansIcon src={Icon2}/>
@@ -41,7 +43,8 @@ const PricesAndPlans = () => {
                         <PricesAndPlansP>Full Administrable</PricesAndPlansP>
                         <PricesAndPlansP>Transf. Ilimitada</PricesAndPlansP>
                         <PricesAndPlansP>Armado en 4 días</PricesAndPlansP>
-                        <Button to={{ pathname: "https://secure.2checkout.com/order/product.php?PRODS=32658871&QTY=1&LANG=es" }} target="_blank" primary='true' dark='true'>Compre ya!</Button>
+                        <PricesAndPlansPrice>$3400/unico pago*</PricesAndPlansPrice>
+                        <Button to={{ pathname: "https://secure.2checkout.com/order/product.php?PRODS=32658871&QTY=1&LANG=es" }} target="_blank" primary='true' dark='true'>Lo quiero!</Button>
                     </PricesAndPlansCard>
                     <PricesAndPlansCard>
                         <PricesAndPlansIcon src={Icon3}/>
@@ -53,7 +56,8 @@ const PricesAndPlans = () => {
                         <PricesAndPlansP>Full Administrable</PricesAndPlansP>
                         <PricesAndPlansP>Transf. Ilimitada</PricesAndPlansP>
                         <PricesAndPlansP>Armado en 4 días</PricesAndPlansP>
-                        <Button to={{ pathname: "https://secure.2checkout.com/order/product.php?PRODS=32671492&QTY=1&LANG=es" }} target="_blank" primary='true' dark='true'>Compre ya!</Button>
+                        <PricesAndPlansPrice>$800/mes*</PricesAndPlansPrice>
+                        <Button to={{ pathname: "https://secure.2checkout.com/order/product.php?PRODS=32671492&QTY=1&LANG=es" }} target="_blank" primary='true' dark='true'>Lo quiero!</Button>
                     </PricesAndPlansCard>
                     <PricesAndPlansCard>
                         <PricesAndPlansIcon src={Icon3}/>
@@ -65,7 +69,8 @@ const PricesAndPlans = () => {
                         <PricesAndPlansP>Full Administrable</PricesAndPlansP>
                         <PricesAndPlansP>Transf. Ilimitada</PricesAndPlansP>
                         <PricesAndPlansP>Armado en 4 días</PricesAndPlansP>
-                        <Button to={{ pathname: "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c938084715f257601717567930a0086" }} target="_blank" primary='true' dark='true'>Compre ya!</Button>
+                        <PricesAndPlansPrice>$1950/mes*</PricesAndPlansPrice>
+                        <Button to={{ pathname: "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c938084715f257601717567930a0086" }} target="_blank" primary='true' dark='true'>Lo quiero!</Button>
                     </PricesAndPlansCard>
                 </PricesAndPlansWrapper>
             </PricesAndPlansContainer>
